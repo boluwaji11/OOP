@@ -5,13 +5,13 @@ class Student:
     def __init__(self):
         self.studentid = "1234"
         self.name = "Bolu"
-        self.dob = "04/11/1993"
+        self.dob = "04/11/2004"
         self.classification = "F, S, Jr, Sr"
         self.age = 0
         self.period = 0
 
     def agecal(self):
-        # Extract year from DOB
+        # Extract year from DOB and convert to an integer
         student_year = int(self.dob[6:])
 
         # Calculate the age
