@@ -3,13 +3,12 @@ import random
 
 class Insect:
     def __init__(self):
-        self.wings = 2
-        self.legs = 4
-        self.miles = 0
+        self.__wings = 2
+        self.__legs = 4
+        self.__miles = 0
+
+    # Method to determine and return the length of flight
 
     def flightlength(self):
-        self.miles = random.randint(1, 10)
-
-    # Method to display the length of flight
-    def display(self):
-        return self.miles
+        self.__miles = random.randint(1, 10)
+        return self.__miles
