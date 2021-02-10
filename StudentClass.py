@@ -2,11 +2,11 @@ import datetime
 
 
 class Student:
-    def __init__(self, classification):
+    def __init__(self, stdID, name, dob, classification):
         self.__classification = classification
-        self.__studentid = "1234"
-        self.__name = "Bolu"
-        self.__dob = "04/11/2004"
+        self.__studentid = stdID
+        self.__name = name
+        self.__dob = dob
         self.__age = 0
         self.__period = 0
 
