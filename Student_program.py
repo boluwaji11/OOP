@@ -1,9 +1,9 @@
 import StudentClass as sc
 
-student_classification = input("Enter student classification (F,S,Jr,Sr): ")
-
 
 def main():
+    student_classification = input("Enter student classification (F,S,Jr,Sr): ")
+
     age = sc.Student(student_classification)
 
     print()
