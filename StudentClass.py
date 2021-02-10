@@ -16,6 +16,7 @@ class Student:
 
         # Calculate the age
         self.age = datetime.date.today().year - student_year
+        return self.age
 
     def regperiod(self):
         if self.classification == "F":
@@ -28,9 +29,4 @@ class Student:
             self.period = "Seniors – 11/1 thru 11/3"
         else:
             self.period = "Invalid Classification"
-
-    def displayage(self):
-        return self.age
-
-    def displayregperiod(self):
         return self.period
