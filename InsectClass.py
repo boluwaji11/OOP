@@ -10,5 +10,6 @@ class Insect:
     def flightlength(self):
         self.miles = random.randint(1, 10)
 
+    # Method to display the length of flight
     def display(self):
         return self.miles
