@@ -16,7 +16,7 @@ def main():
     print()
     print("The Manufacturer is", cell.get_manufact())
     print("The Model is", cell.get_model())
-    print("The Retail Price is", cell.get_retail_price())
+    print("The Retail Price is $", format(cell.get_retail_price(), ",.2f"), sep="")
 
 
 main()
